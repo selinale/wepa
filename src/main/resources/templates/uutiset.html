@@ -5,30 +5,17 @@
         <title>Uutiset</title>
     </head>
     <body>
-
-        <header th:replace="fragments/header :: header">
-            <p>header with links etc</p>
-        </header>
-
         <h1>Uutiset</h1>
 
         <ul>
             <li th:each="uutinen : ${uutiset}">
-                <span th:text="${uutinen.otsikko}">otsikko</span>
-                <pre th:utext="${uutinen.ingressi}">ingressi</pre>
-                <pre th:utext="${uutinen.teksti]">teksti</pre>
+                <a th:href="@{/uutiset/{id}(id=${uutinen.id})}">
+                    <span th:text="${uutinen.otsikko + ' ' + uutinen.aika}">otsikko ja aika</span>
+                </a>
             </li>
         </ul>
 
-        <h1>Lisää uutinen</h1>
-
-        <form th:action="@{/uutiset}" method="POST">
-            <p>Otsikko: <input name="otsikko"></input></p>
-            <p>Ingressi: <textarea name="ingressi"></textarea></p>
-            <p>Teksti: <textarea name="teksti"></textarea></p>
-            <input type="submit" value="Lisää"></input>
-        </form>
-
+        
     </body>
 </html>
 

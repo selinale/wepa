@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Uutiset</title>
+    </head>
+
+    <body>
+        
+        <h1 th:text="${uutinen.otsikko}">otsikko</h1>
+        <pre th:text="${uutinen.aika}">aika</pre>
+        <!--<img src="/kuvat/${uutinen.kuva}" alt="kuva" />-->
+        <pre th:text="${uutinen.ingressi}">ingressi</pre>
+        <pre th:utext="${uutinen.teksti}">teksti</pre>
+
+    </body>
+</html>
