@@ -1,0 +1,14 @@
+Sovelluksessani ei ole läheskään kaikkia pyydettyjä ominaisuuksia, 
+sillä taitoni eivät yksinkertaisesti riittäneet niitä toteuttamaan.
+Sovelluksella pystyy kuitenkin luomaan uuden uutisen, joka sisältää
+otsikon, ingressin ja tekstin sekä julkisuaika, sekä tarkastelemaan
+luotuja uutisia. 
+Harjoitustyöstäni puuttuu uutisten muokkaamisen mahdollisuus, kuvien
+lisääminen uutisiin, kategoriat sekä kirjoittajat. Sovellukseni ei 
+myöskään järjestä uutisia edellisen viikon aikana kertyneiden lukumäärien 
+eikä kategorian perusteella, mutta uutiset järjestäytyvät kyllä 
+julkaisuajan perusteella. Uutissivuston etusivu luettelee uutiset ja se
+näyttää jokaisesta uutisesta otsikon ja julkaisuajan. Painamalla uutista
+aukeaa uusi sivu, missä on uutinen kokonaisuudessaan (paitsi kuva). 
+
+🙂🙂🙂🙂🙂🙂🙂
