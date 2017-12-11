@@ -7,7 +7,7 @@ Harjoitustyöstäni puuttuu uutisten muokkaamisen mahdollisuus, kuvien
 lisääminen uutisiin, kategoriat sekä kirjoittajat. Sovellukseni ei 
 myöskään järjestä uutisia edellisen viikon aikana kertyneiden lukumäärien 
 eikä kategorian perusteella, mutta uutiset järjestäytyvät kyllä 
-julkaisuajan perusteella. Uutissivuston etusivu luettelee uutiset ja se
+julkaisuajan perusteella (uusin ensin). Uutissivuston etusivu luettelee uutiset ja se
 näyttää jokaisesta uutisesta otsikon ja julkaisuajan. Painamalla uutista
 aukeaa uusi sivu, missä on uutinen kokonaisuudessaan (paitsi kuva). 
 
